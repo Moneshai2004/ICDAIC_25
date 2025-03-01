@@ -375,7 +375,7 @@ function App() {
               <div className="flex justify-center">
                 <div className="glassmorphism p-4 rounded-xl card-hover">
                   <img
-                    src="/src/images/qrcode.jpeg"
+                    src="/images/qrcode.jpeg"
                     alt="PhonePe QR Code"
                     className="w-64 h-64"
                   />
@@ -758,14 +758,13 @@ function App() {
                 </h3>
                 <div className="space-y-4">
                   <a
-                    href="/images/Grey and Green Modern Plant Studio Trifold Brochure (1).pdf.pdf"
+                    href="/images/Grey_and_Green_Modern_Plant_Studio_Trifold_Brochure_2025.pdf" // Correct the file name if necessary
                     className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                    download
+                    download="ICDAIC_Brochure.pdf" // File will be downloaded with this name
                   >
                     <ChevronRight className="h-5 w-5 mr-2" />
                     Download Brochure
                   </a>
-                 
                 </div>
               </div>
             </div>
