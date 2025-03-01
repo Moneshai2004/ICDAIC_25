@@ -180,30 +180,32 @@ function App() {
         </nav>
 
         {/* Hero Section */}
-        <div className="relative min-h-screen flex items-center">
+        {/* Hero Section */}
+        <div className="relative min-h-screen flex items-center bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-blue-900">
           <div className="absolute inset-0 overflow-hidden">
             <div className="tech-lines"></div>
           </div>
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold gradient-text mb-8 float">
-              ICDAIC'24
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold gradient-text mb-8">
+              ICDAIC'25
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-4 float">
-              International Level Conference
+            <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-4">
+              Second International Conference on Data Analytics and Intelligence
+              Computing
             </p>
-            <p className="text-lg text-gray-500 dark:text-gray-400 mb-12 float">
-              April 06 2024
+            <p className="text-lg text-gray-500 dark:text-gray-400 mb-12">
+              April 9, 2025 | Mode: Online / Offline
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="#register"
+                href="#registration"
                 className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
               >
-                Register now
+                Register Now
               </a>
               <a
-                href="#details"
+                href="#about"
                 className="px-8 py-4 glassmorphism text-gray-800 dark:text-white rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
               >
                 View Details
@@ -220,27 +222,107 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl sm:text-4xl font-bold gradient-text mb-8">
-                About
+                About ICDAIC'25
               </h2>
               <div className="prose prose-lg dark:prose-invert mx-auto">
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  ICDAIC'24 is a national level technical conference that is to
-                  be held on April 06 2024. The event focuses on gathering the
-                  various project ideas of people about data analytics and
-                  intelligence computing in both online and offline mode.
+                  The{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Second International Conference on Data Analytics and
+                    Intelligence Computing (ICDAIC'25)
+                  </span>{" "}
+                  will be held on{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    April 9, 2025
+                  </span>
+                  . This conference focuses on the latest advancements in{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Data Analytics
+                  </span>
+                  ,{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Artificial Intelligence
+                  </span>
+                  , and{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Intelligence Computing
+                  </span>
+                  .
                 </p>
-                <p className="text-gray-600 dark:text-gray-300">
-                  The event is a coordinated event that is to be held on both
-                  online as well as offline mode. We welcome participants from
-                  all over India. The participants can present their project
-                  ideas through either offline mode or offline mode based on
-                  their convenience.
+                <p className="text-gray-600 dark:text-gray-300 mb-6">
+                  ICDAIC'25 aims to bring together experts, researchers,
+                  industry professionals, and students to explore and discuss
+                  the emerging trends in{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Artificial Intelligence
+                  </span>
+                  ,{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Machine Learning
+                  </span>
+                  ,{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Data Science
+                  </span>
+                  , and related fields. The event will be conducted in both{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    online
+                  </span>{" "}
+                  and{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    offline
+                  </span>{" "}
+                  formats, offering global participation opportunities.
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 mb-6">
+                  This conference will feature multiple tracks, covering key
+                  topics in the fields of{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Artificial Intelligence
+                  </span>
+                  ,{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Data Science
+                  </span>
+                  , and{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Cyber-Physical Systems
+                  </span>
+                  , as well as{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Industry 6.0
+                  </span>{" "}
+                  and its integration with AI and Data Science. The goal is to
+                  create an inclusive environment where participants can share
+                  their latest research, ideas, and innovations.
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 mb-6">
+                  We invite students, researchers, academicians, and industry
+                  experts to submit their papers and innovative ideas. Extended
+                  papers will be recommended for inclusion in{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Scopus-indexed journals
+                  </span>
+                  ,{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    UGC Care Journals
+                  </span>
+                  ,{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Book Chapters
+                  </span>
+                  , and{" "}
+                  <span className="text-gray-900 dark:text-gray-200">
+                    Book Series
+                  </span>
+                  , subject to quality review.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
+        {/* Registration Section */}
         {/* Registration Section */}
         <div
           id="registration"
@@ -249,31 +331,38 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold gradient-text mb-4">
-                Registration
+                Registration Fees
               </h2>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
+                {/* UG Students */}
                 <div className="glassmorphism rounded-xl p-6 card-hover">
                   <h3 className="text-xl font-semibold text-yellow-500 mb-2">
                     UG Students
                   </h3>
-                  <p className="text-3xl font-bold gradient-text">₹500/-</p>
+                  <p className="text-3xl font-bold gradient-text">₹750/-</p>
                 </div>
+
+                {/* PG Students / Research Scholars / Academicians */}
                 <div className="glassmorphism rounded-xl p-6 card-hover">
                   <h3 className="text-xl font-semibold text-yellow-500 mb-2">
-                    PG Students & Research Scholars / Academicians
+                    PG Students / Research Scholars / Academicians
                   </h3>
-                  <p className="text-3xl font-bold gradient-text">₹1000/-</p>
+                  <p className="text-3xl font-bold gradient-text">₹1500/-</p>
                 </div>
+
+                {/* Industrialist */}
                 <div className="glassmorphism rounded-xl p-6 card-hover">
                   <h3 className="text-xl font-semibold text-yellow-500 mb-2">
                     Industrialist
                   </h3>
-                  <p className="text-3xl font-bold gradient-text">₹1500/-</p>
+                  <p className="text-3xl font-bold gradient-text">₹1000/-</p>
                 </div>
+
+                {/* Register Now Button */}
                 <a
-                  href="https://forms.gle/dqVcdcFPZum14p3RA"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc5QCSk51yiPjwsgU_bHngTJ9Gft4iz7ph2VKG826sAllHPFg/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105"
@@ -281,20 +370,45 @@ function App() {
                   Register Now
                 </a>
               </div>
+
+              {/* QR Code for PhonePe */}
               <div className="flex justify-center">
                 <div className="glassmorphism p-4 rounded-xl card-hover">
                   <img
-                    src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://forms.gle/dqVcdcFPZum14p3RA"
-                    alt="Registration QR Code"
+                    src="/src/images/qrcode.jpeg"
+                    alt="PhonePe QR Code"
                     className="w-64 h-64"
                   />
+                  <p className="text-center mt-4 text-lg text-gray-600 dark:text-gray-300">
+                    Scan & Pay Using PhonePe App
+                  </p>
+                  <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    Deverashetty Chandra Shekar
+                  </p>
                 </div>
+              </div>
+
+              {/* After Payment Message */}
+              <div className="text-center mt-8">
+                <p className="text-lg text-gray-600 dark:text-gray-300">
+                  After completing your payment, please{" "}
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc5QCSk51yiPjwsgU_bHngTJ9Gft4iz7ph2VKG826sAllHPFg/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    fill out the registration form
+                  </a>{" "}
+                  to complete your registration.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
         {/* Patrons Section */}
+
         <div
           id="patrons"
           className="section-fade-in py-24 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm"
@@ -306,6 +420,7 @@ function App() {
               </h2>
             </div>
             <div className="space-y-8">
+              {/* Chief Patron */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-xl font-semibold gradient-text mb-4">
                   Chief Patron
@@ -314,10 +429,11 @@ function App() {
                   Shri. M.V. Muthuramalingam
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Chairman, Velammal Institute of Technology
+                  Chairman, Velammal Educational Trust
                 </p>
               </div>
 
+              {/* Patron */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-xl font-semibold gradient-text mb-4">
                   Patron
@@ -326,10 +442,11 @@ function App() {
                   Shri. M. V. M. Sasikumar
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Director, Velammal Education Trust
+                  Director, Velammal Educational Trust
                 </p>
               </div>
 
+              {/* Co-Patrons */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-xl font-semibold gradient-text mb-4">
                   Co-Patrons
@@ -369,10 +486,53 @@ function App() {
                   </div>
                 </div>
               </div>
+
+              {/* Convener */}
+              <div className="glassmorphism rounded-xl p-8 card-hover">
+                <h3 className="text-xl font-semibold gradient-text mb-4">
+                  Convener
+                </h3>
+                <p className="text-lg font-semibold text-yellow-500 mb-1">
+                  Dr. S. PadmaPriya
+                </p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Professor and Head, Dept. of Artificial Intelligence and Data
+                  Science
+                </p>
+              </div>
+
+              {/* Coordinators */}
+              <div className="glassmorphism rounded-xl p-8 card-hover">
+                <h3 className="text-xl font-semibold gradient-text mb-4">
+                  Coordinators
+                </h3>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-lg font-semibold text-yellow-500 mb-1">
+                      Mrs. K. Sudha
+                    </p>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Assistant Professor, Dept. of Artificial Intelligence and
+                      Data Science
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-lg font-semibold text-yellow-500 mb-1">
+                      Mr. K. Dinesh Kumar
+                    </p>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Assistant Professor, Dept. of Artificial Intelligence and
+                      Data Science
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
+        {/* Tracks Section */}
         {/* Tracks Section */}
         <div
           id="tracks"
@@ -385,61 +545,70 @@ function App() {
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Track I */}
+              {/* Track I - Artificial Intelligence */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-2xl font-semibold gradient-text mb-6">
-                  Track I
+                  Track I - Artificial Intelligence
                 </h3>
-                <ul className="space-y-4">
-                  {[
-                    "Data analytics and data engineering",
-                    "Knowledge engineering",
-                    "Data management",
-                    "Business analytics",
-                    "Big Data Analytics",
-                    "Web data management and development",
-                  ].map((track, index) => (
-                    <li
-                      key={index}
-                      className="flex items-center text-gray-700 dark:text-gray-300 transition-all duration-300 hover:translate-x-2"
-                    >
-                      <ChevronRight className="h-5 w-5 text-blue-500 mr-2" />
-                      {track}
-                    </li>
-                  ))}
+                <ul className="space-y-4 text-gray-600 dark:text-gray-300">
+                  <li>Multi Modal & AI Models</li>
+                  <li>Responsible AI</li>
+                  <li>Ethical AI</li>
+                  <li>Agentic AI</li>
+                  <li>Small LM’s</li>
+                  <li>AI in Healthcare</li>
                 </ul>
               </div>
 
-              {/* Track II */}
+              {/* Track II - Data Science */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-2xl font-semibold gradient-text mb-6">
-                  Track II
+                  Track II - Data Science
                 </h3>
-                <ul className="space-y-4">
-                  {[
-                    "Deep learning in autonomous systems",
-                    "Intelligent process control",
-                    "Autonomous Vehicles",
-                    "Cyber physical system",
-                    "Smart energy system",
-                    "Half healing network",
-                    "Automatic customer service",
-                    "Autonomous underwater Vehicles",
-                  ].map((track, index) => (
-                    <li
-                      key={index}
-                      className="flex items-center text-gray-700 dark:text-gray-300 transition-all duration-300 hover:translate-x-2"
-                    >
-                      <ChevronRight className="h-5 w-5 text-blue-500 mr-2" />
-                      {track}
-                    </li>
-                  ))}
+                <ul className="space-y-4 text-gray-600 dark:text-gray-300">
+                  <li>Explainable AI</li>
+                  <li>Edge Computing & IoT</li>
+                  <li>Augmented Analytics</li>
+                  <li>Data Privacy and Security</li>
+                  <li>Advancements in Data Governance</li>
+                  <li>Natural Language Processing</li>
+                </ul>
+              </div>
+
+              {/* Track III - Cyber Physical Systems */}
+              <div className="glassmorphism rounded-xl p-8 card-hover">
+                <h3 className="text-2xl font-semibold gradient-text mb-6">
+                  Track III - Cyber Physical Systems
+                </h3>
+                <ul className="space-y-4 text-gray-600 dark:text-gray-300">
+                  <li>AI Powered Cyber Security Enhancements</li>
+                  <li>Quantum Computing</li>
+                  <li>Cloud Security</li>
+                  <li>Zero Trust Security Framework</li>
+                  <li>Cyber Attack Detection and Mitigation</li>
+                  <li>Fault Tolerant Systems</li>
+                </ul>
+              </div>
+
+              {/* Track IV - Industry 6.0 */}
+              <div className="glassmorphism rounded-xl p-8 card-hover">
+                <h3 className="text-2xl font-semibold gradient-text mb-6">
+                  Track IV - Industry 6.0
+                </h3>
+                <ul className="space-y-4 text-gray-600 dark:text-gray-300">
+                  <li>Hyper Connected Systems</li>
+                  <li>Autonomous Supply Chains</li>
+                  <li>Digital Twins</li>
+                  <li>Swarm Robotics</li>
+                  <li>Predictive Maintenance</li>
+                  <li>Smart Manufacturing Systems</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
+        {/* Important Dates Section */}
         {/* Important Dates Section */}
         <div
           id="dates"
@@ -452,26 +621,41 @@ function App() {
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { title: "Abstract submission", date: "15/03/2024" },
-                { title: "Full paper submission", date: "18/03/2024" },
-                { title: "Intimation of acceptance", date: "20/03/2024" },
-                {
-                  title: "Camera ready paper for registration",
-                  date: "26/03/2024",
-                },
-              ].map((item, index) => (
-                <div
-                  key={index}
-                  className="glassmorphism rounded-xl p-6 text-center card-hover"
-                >
-                  <Calendar className="h-8 w-8 mx-auto mb-4 text-blue-600 dark:text-blue-400" />
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="gradient-text font-semibold">{item.date}</p>
-                </div>
-              ))}
+              {/* Abstract Submission */}
+              <div className="glassmorphism rounded-xl p-6 text-center card-hover">
+                <Calendar className="h-8 w-8 mx-auto mb-4 text-blue-600 dark:text-blue-400" />
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Abstract Submission
+                </h3>
+                <p className="gradient-text font-semibold">15/03/2025</p>
+              </div>
+
+              {/* Full Paper Submission */}
+              <div className="glassmorphism rounded-xl p-6 text-center card-hover">
+                <Calendar className="h-8 w-8 mx-auto mb-4 text-blue-600 dark:text-blue-400" />
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Full Paper Submission
+                </h3>
+                <p className="gradient-text font-semibold">18/03/2025</p>
+              </div>
+
+              {/* Intimation of Acceptance */}
+              <div className="glassmorphism rounded-xl p-6 text-center card-hover">
+                <Calendar className="h-8 w-8 mx-auto mb-4 text-blue-600 dark:text-blue-400" />
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Intimation of Acceptance
+                </h3>
+                <p className="gradient-text font-semibold">20/03/2025</p>
+              </div>
+
+              {/* Camera Ready Paper for Registration */}
+              <div className="glassmorphism rounded-xl p-6 text-center card-hover">
+                <Calendar className="h-8 w-8 mx-auto mb-4 text-blue-600 dark:text-blue-400" />
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Camera Ready Paper for Registration
+                </h3>
+                <p className="gradient-text font-semibold">23/03/2025</p>
+              </div>
             </div>
           </div>
         </div>
@@ -526,6 +710,9 @@ function App() {
         </div>
 
         {/* Contact Section */}
+
+        {/* Contact Section */}
+        {/* Contact Section */}
         <div
           id="contact"
           className="section-fade-in py-24 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm"
@@ -537,6 +724,7 @@ function App() {
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
+              {/* Contact Details */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-2xl font-semibold gradient-text mb-6">
                   Get in Touch
@@ -545,49 +733,39 @@ function App() {
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-3" />
                     <p className="text-gray-700 dark:text-gray-300">
-                      +91 9876543210
+                      +91 9551333622, +91 9710845174
                     </p>
                   </div>
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-3" />
                     <p className="text-gray-700 dark:text-gray-300">
-                      contact@icdaic.com
+                      icdic@velammalitech.edu.in
                     </p>
                   </div>
                   <div className="flex items-center">
                     <Globe className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-3" />
                     <p className="text-gray-700 dark:text-gray-300">
-                      www.icdaic.com
+                      www.velammalitech.edu.in
                     </p>
                   </div>
                 </div>
               </div>
+
+              {/* Quick Links */}
               <div className="glassmorphism rounded-xl p-8 card-hover">
                 <h3 className="text-2xl font-semibold gradient-text mb-6">
                   Quick Links
                 </h3>
                 <div className="space-y-4">
                   <a
-                    href="#"
+                    href="/images/Grey and Green Modern Plant Studio Trifold Brochure (1).pdf.pdf"
                     className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    download
                   >
                     <ChevronRight className="h-5 w-5 mr-2" />
                     Download Brochure
                   </a>
-                  <a
-                    href="#"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    <ChevronRight className="h-5 w-5 mr-2" />
-                    Paper Submission Guidelines
-                  </a>
-                  <a
-                    href="#"
-                    className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    <ChevronRight className="h-5 w-5 mr-2" />
-                    Registration Process
-                  </a>
+                 
                 </div>
               </div>
             </div>
